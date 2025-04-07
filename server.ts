@@ -1,3 +1,4 @@
+import { serve } from "https://deno.land/std@0.114.0/http/server.ts";
 import { serveFile } from "https://deno.land/std@0.114.0/http/file_server.ts";
 
 const app = serve({ port: 8000 });
